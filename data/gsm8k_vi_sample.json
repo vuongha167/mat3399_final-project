@@ -1,0 +1,92 @@
+[
+  {
+    "id": "gsm8k_vi_01",
+    "category": "GSM8K Việt hóa",
+    "grade": 7,
+    "question": "Nam có 50 viên bi. Nam cho Bình 15 viên bi, sau đó Nam mua thêm số bi gấp đôi số bi còn lại sau khi cho Bình. Hỏi lúc này Nam có tất cả bao nhiêu viên bi?",
+    "expected_answer": 105,
+    "expected_unit": "viên bi",
+    "ground_truth_equations": "rem = 50 - 15, total = rem + 2 * rem"
+  },
+  {
+    "id": "gsm8k_vi_02",
+    "category": "GSM8K Việt hóa",
+    "grade": 7,
+    "question": "Một người thợ làm vườn trồng 3 luống hoa hồng, mỗi luống có 12 cây. Sau đó ông trồng thêm 4 luống hoa cúc, mỗi luống có 15 cây. Trong đợt sâu bọ, có 10 cây hoa bị hỏng phải nhổ bỏ. Hỏi hiện tại trong vườn còn lại bao nhiêu cây hoa?",
+    "expected_answer": 86,
+    "expected_unit": "cây hoa",
+    "ground_truth_equations": "total = 3 * 12 + 4 * 15 - 10"
+  },
+  {
+    "id": "gsm8k_vi_03",
+    "category": "GSM8K Việt hóa",
+    "grade": 8,
+    "question": "Một cửa hàng bán 1 chiếc áo với giá 200 nghìn đồng và lãi 25% so với giá vốn. Hỏi giá vốn ban đầu của chiếc áo đó là bao nhiêu nghìn đồng?",
+    "expected_answer": 160,
+    "expected_unit": "nghìn đồng",
+    "ground_truth_equations": "cost * (1 + 0.25) = 200"
+  },
+  {
+    "id": "gsm8k_vi_04",
+    "category": "GSM8K Việt hóa",
+    "grade": 8,
+    "question": "Một thư viện trường có 3 ngăn sách. Ngăn thứ nhất có 120 cuốn. Ngăn thứ hai có số sách gấp rưỡi ngăn thứ nhất. Ngăn thứ ba có số sách bằng trung bình cộng của hai ngăn đầu. Hỏi cả 3 ngăn sách có tất cả bao nhiêu cuốn?",
+    "expected_answer": 450,
+    "expected_unit": "cuốn",
+    "ground_truth_equations": "n1 = 120, n2 = 1.5 * 120, n3 = (120 + 180)/2, total = n1 + n2 + n3"
+  },
+  {
+    "id": "gsm8k_vi_05",
+    "category": "GSM8K Việt hóa",
+    "grade": 7,
+    "question": "Một bể nước chứa 500 lít nước. Một vòi nước chảy vào bể mỗi phút được 25 lít, đồng thời một lỗ rò ở đáy bể làm thất thoát 5 lít nước mỗi phút. Hỏi sau bao nhiêu phút thì lượng nước trong bể tăng thêm được 300 lít?",
+    "expected_answer": 15,
+    "expected_unit": "phút",
+    "ground_truth_equations": "(25 - 5) * t = 300"
+  },
+  {
+    "id": "gsm8k_vi_06",
+    "category": "GSM8K Việt hóa",
+    "grade": 8,
+    "question": "Lan mua 4 cây bút và 5 quyển vở hết 70 nghìn đồng. Mai mua 2 cây bút và 3 quyển vở cùng loại hết 40 nghìn đồng. Tính giá tiền một quyển vở (đơn vị: nghìn đồng).",
+    "expected_answer": 10,
+    "expected_unit": "nghìn đồng",
+    "ground_truth_equations": "4*p + 5*v = 70, 2*p + 3*v = 40"
+  },
+  {
+    "id": "gsm8k_vi_07",
+    "category": "GSM8K Việt hóa",
+    "grade": 7,
+    "question": "Tuổi mẹ hiện nay gấp 3 lần tuổi con. Biết rằng 5 năm trước, mẹ hơn con 26 tuổi. Hỏi hiện nay con bao nhiêu tuổi?",
+    "expected_answer": 13,
+    "expected_unit": "tuổi",
+    "ground_truth_equations": "m = 3*c, m - c = 26"
+  },
+  {
+    "id": "gsm8k_vi_08",
+    "category": "GSM8K Việt hóa",
+    "grade": 7,
+    "question": "Một người đi xe máy từ A đến B với vận tốc 40 km/h trong 2 giờ. Sau đó nghỉ 30 phút rồi tiếp tục đi từ B đến C với vận tốc 50 km/h trong 1.5 giờ. Tính tổng quãng đường từ A đến C.",
+    "expected_answer": 155,
+    "expected_unit": "km",
+    "ground_truth_equations": "total_dist = 40 * 2 + 50 * 1.5"
+  },
+  {
+    "id": "gsm8k_vi_09",
+    "category": "GSM8K Việt hóa",
+    "grade": 8,
+    "question": "Một rạp chiếu phim có 200 chỗ ngồi. Vé người lớn có giá 80 nghìn đồng, vé trẻ em có giá 50 nghìn đồng. Khi rạp bán hết vé, tổng số tiền thu được là 13.6 triệu đồng (13600 nghìn đồng). Hỏi có bao nhiêu vé trẻ em đã được bán?",
+    "expected_answer": 80,
+    "expected_unit": "vé",
+    "ground_truth_equations": "a + c = 200, 80*a + 50*c = 13600"
+  },
+  {
+    "id": "gsm8k_vi_10",
+    "category": "GSM8K Việt hóa",
+    "grade": 8,
+    "question": "Một người chạy bộ quanh một hồ nước hình tròn có bán kính 70 m. Biết chu vi hồ tính theo công thức C = 2 * pi * R (lấy pi = 22/7). Người đó chạy đúng 5 vòng quanh hồ. Hỏi tổng quãng đường người đó chạy được là bao nhiêu mét?",
+    "expected_answer": 2200,
+    "expected_unit": "m",
+    "ground_truth_equations": "c = 2 * (22/7) * 70, dist = 5 * c"
+  }
+]

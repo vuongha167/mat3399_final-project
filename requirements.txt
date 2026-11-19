@@ -1,0 +1,28 @@
+# Danh sách thư viện phụ thuộc cho Hệ thống Multi-Agent AI Tutor Toán THCS
+# Tương thích với Python 3.10, 3.11, 3.12, 3.13 và Google Colab
+
+# Thư viện Đại số Ký hiệu & Tính toán Toán học
+sympy>=1.12
+
+# Framework Điều phối Đa tác tử (Multi-Agent State Graph)
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-core>=0.2.0
+
+# SDK Google Gemini chính thức mới nhất
+google-genai>=0.1.1
+
+# Giao diện Web tương tác Streamlit
+streamlit>=1.35.0
+
+# Bộ dữ liệu Benchmark Chuẩn mực từ Hugging Face & Xử lý dữ liệu
+datasets>=2.19.0
+pandas>=2.0.0
+
+# Mở đường hầm tương tác trực tuyến trên Colab (ngrok)
+pyngrok>=7.0.0
+
+# Cấu trúc dữ liệu và HTTP client
+pydantic>=2.7.0
+requests>=2.31.0
+python-dotenv>=1.0.0

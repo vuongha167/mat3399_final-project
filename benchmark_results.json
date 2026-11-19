@@ -1,0 +1,82 @@
+{
+  "dataset": "Tệp cục bộ: /home/quocvuong/Workspace/mat3399_final-project/data/thcs_problems.json (15 câu hỏi)",
+  "dataset_mode": "local",
+  "total_problems": 5,
+  "metrics": {
+    "accuracy_percent": 100.0,
+    "execution_success_rate_percent": 100.0,
+    "self_correction_recovery_rate_percent": 100.0,
+    "first_try_failed_cases": 0,
+    "successfully_recovered_cases": 0,
+    "average_latency_seconds": 1.09,
+    "total_benchmark_time_seconds": 5.47
+  },
+  "config": {
+    "provider": "mock",
+    "model": null,
+    "sandbox_timeout": 3,
+    "max_attempts": 3
+  },
+  "details": [
+    {
+      "id": "thcs_01",
+      "category": "Toán chuyển động",
+      "question": "Một ô tô đi từ Hà Nội đến Hải Phòng với quãng đường dài 120 km. Khi về, xe đi với vận tốc lớn hơn vận tốc lúc đi là 10 km/h nên thời gian về ít hơn thời gian đi là 24 phút. Tính vận tốc lúc đi của ô tô.",
+      "expected": 50,
+      "predicted": 50,
+      "is_correct": true,
+      "exec_success": true,
+      "attempts": 0,
+      "duration": 0.044974327087402344,
+      "error": null
+    },
+    {
+      "id": "thcs_02",
+      "category": "Toán chuyển động",
+      "question": "Một ca nô xuôi dòng từ bến A đến bến B hết 4 giờ và ngược dòng từ bến B về bến A hết 5 giờ. Biết vận tốc dòng nước là 2 km/h. Tính khoảng cách giữa hai bến A và B.",
+      "expected": 80,
+      "predicted": 80,
+      "is_correct": true,
+      "exec_success": true,
+      "attempts": 0,
+      "duration": 2.690793514251709,
+      "error": null
+    },
+    {
+      "id": "thcs_03",
+      "category": "Toán công việc chung riêng",
+      "question": "Hai người thợ cùng làm chung một công việc thì sau 12 ngày hoàn thành. Nếu người thứ nhất làm một mình trong 4 ngày rồi người thứ hai đến làm tiếp trong 14 ngày nữa thì hai người hoàn thành 50% công việc. Hỏi nếu làm một mình thì người thứ nhất hoàn thành công việc trong bao nhiêu ngày?",
+      "expected": 15,
+      "predicted": 15,
+      "is_correct": true,
+      "exec_success": true,
+      "attempts": 0,
+      "duration": 2.6640560626983643,
+      "error": null
+    },
+    {
+      "id": "thcs_04",
+      "category": "Toán năng suất",
+      "question": "Một phân xưởng may theo kế hoạch phải may 1200 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày xưởng may thêm được 10 bộ quần áo so với kế hoạch, nên đã hoàn thành trước thời hạn 4 ngày. Hỏi theo kế hoạch, mỗi ngày xưởng phải may bao nhiêu bộ quần áo?",
+      "expected": 50,
+      "predicted": 50,
+      "is_correct": true,
+      "exec_success": true,
+      "attempts": 0,
+      "duration": 0.03037858009338379,
+      "error": null
+    },
+    {
+      "id": "thcs_05",
+      "category": "Toán nồng độ dung dịch",
+      "question": "Có bao nhiêu gam dung dịch muối nồng độ 10% cần trộn với 200 gam dung dịch muối nồng độ 25% để được dung dịch muối có nồng độ 15%?",
+      "expected": 400,
+      "predicted": 400,
+      "is_correct": true,
+      "exec_success": true,
+      "attempts": 0,
+      "duration": 0.041242122650146484,
+      "error": null
+    }
+  ]
+}

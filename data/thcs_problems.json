@@ -1,0 +1,137 @@
+[
+  {
+    "id": "thcs_01",
+    "category": "Toán chuyển động",
+    "grade": 9,
+    "question": "Một ô tô đi từ Hà Nội đến Hải Phòng với quãng đường dài 120 km. Khi về, xe đi với vận tốc lớn hơn vận tốc lúc đi là 10 km/h nên thời gian về ít hơn thời gian đi là 24 phút. Tính vận tốc lúc đi của ô tô.",
+    "expected_answer": 50,
+    "expected_unit": "km/h",
+    "ground_truth_equations": "120 / x - 120 / (x + 10) = 2/5"
+  },
+  {
+    "id": "thcs_02",
+    "category": "Toán chuyển động",
+    "grade": 9,
+    "question": "Một ca nô xuôi dòng từ bến A đến bến B hết 4 giờ và ngược dòng từ bến B về bến A hết 5 giờ. Biết vận tốc dòng nước là 2 km/h. Tính khoảng cách giữa hai bến A và B.",
+    "expected_answer": 80,
+    "expected_unit": "km",
+    "ground_truth_equations": "s / (v + 2) = 4, s / (v - 2) = 5"
+  },
+  {
+    "id": "thcs_03",
+    "category": "Toán công việc chung riêng",
+    "grade": 9,
+    "question": "Hai người thợ cùng làm chung một công việc thì sau 12 ngày hoàn thành. Nếu người thứ nhất làm một mình trong 4 ngày rồi người thứ hai đến làm tiếp trong 14 ngày nữa thì hai người hoàn thành 50% công việc. Hỏi nếu làm một mình thì người thứ nhất hoàn thành công việc trong bao nhiêu ngày?",
+    "expected_answer": 15,
+    "expected_unit": "ngày",
+    "ground_truth_equations": "1/x + 1/y = 1/12, 4/x + 14/y = 1/2"
+  },
+  {
+    "id": "thcs_04",
+    "category": "Toán năng suất",
+    "grade": 8,
+    "question": "Một phân xưởng may theo kế hoạch phải may 1200 bộ quần áo trong một thời gian quy định. Nhờ cải tiến kỹ thuật, mỗi ngày xưởng may thêm được 10 bộ quần áo so với kế hoạch, nên đã hoàn thành trước thời hạn 4 ngày. Hỏi theo kế hoạch, mỗi ngày xưởng phải may bao nhiêu bộ quần áo?",
+    "expected_answer": 50,
+    "expected_unit": "bộ/ngày",
+    "ground_truth_equations": "1200 / x - 1200 / (x + 10) = 4"
+  },
+  {
+    "id": "thcs_05",
+    "category": "Toán nồng độ dung dịch",
+    "grade": 8,
+    "question": "Có bao nhiêu gam dung dịch muối nồng độ 10% cần trộn với 200 gam dung dịch muối nồng độ 25% để được dung dịch muối có nồng độ 15%?",
+    "expected_answer": 400,
+    "expected_unit": "gam",
+    "ground_truth_equations": "0.10 * x + 0.25 * 200 = 0.15 * (x + 200)"
+  },
+  {
+    "id": "thcs_06",
+    "category": "Toán hình học thực tế",
+    "grade": 9,
+    "question": "Một mảnh đất hình chữ nhật có chu vi bằng 40 m. Nếu tăng chiều rộng thêm 2 m và giảm chiều dài đi 2 m thì diện tích tăng thêm 8 m2. Tính chiều dài ban đầu của mảnh đất.",
+    "expected_answer": 13,
+    "expected_unit": "m",
+    "ground_truth_equations": "x + y = 20, (x - 2) * (y + 2) - x * y = 8"
+  },
+  {
+    "id": "thcs_07",
+    "category": "Toán kinh tế thực tế",
+    "grade": 8,
+    "question": "Bác An gửi 100 triệu đồng vào ngân hàng với lãi suất kỳ hạn 1 năm. Sau 1 năm, bác An không rút tiền mà để cả vốn lẫn lãi lại ngân hàng thêm 1 năm nữa. Sau 2 năm, tổng số tiền bác An nhận được là 114.49 triệu đồng. Tính lãi suất hàng năm của ngân hàng.",
+    "expected_answer": 7,
+    "expected_unit": "%/năm",
+    "ground_truth_equations": "100 * (1 + r/100)^2 = 114.49"
+  },
+  {
+    "id": "thcs_08",
+    "category": "Toán tìm số",
+    "grade": 8,
+    "question": "Tìm một số tự nhiên có hai chữ số, biết rằng chữ số hàng chục gấp 3 lần chữ số hàng đơn vị. Nếu đổi chỗ hai chữ số cho nhau thì được một số mới nhỏ hơn số ban đầu 36 đơn vị.",
+    "expected_answer": 62,
+    "expected_unit": "",
+    "ground_truth_equations": "x = 3*y, (10*x + y) - (10*y + x) = 36"
+  },
+  {
+    "id": "thcs_09",
+    "category": "Toán chuyển động",
+    "grade": 8,
+    "question": "Một xe đạp và một xe máy cùng khởi hành từ A để đi đến B. Quãng đường AB dài 60 km. Vận tốc xe máy lớn hơn xe đạp 20 km/h nên xe máy đến B trước xe đạp 1 giờ 30 phút. Tính vận tốc của xe đạp.",
+    "expected_answer": 20,
+    "expected_unit": "km/h",
+    "ground_truth_equations": "60 / x - 60 / (x + 20) = 1.5"
+  },
+  {
+    "id": "thcs_10",
+    "category": "Toán công việc chung riêng",
+    "grade": 9,
+    "question": "Hai vòi nước cùng chảy vào một bể rỗng thì sau 4 giờ 48 phút (4.8 giờ) sẽ đầy bể. Nếu chảy một mình thì vòi thứ nhất chảy đầy bể nhanh hơn vòi thứ hai là 4 giờ. Hỏi vòi thứ nhất chảy một mình trong bao lâu thì đầy bể?",
+    "expected_answer": 8,
+    "expected_unit": "giờ",
+    "ground_truth_equations": "1/x + 1/(x + 4) = 1/4.8"
+  },
+  {
+    "id": "thcs_11",
+    "category": "Toán giải hệ phương trình",
+    "grade": 9,
+    "question": "Tìm hai số biết tổng của chúng bằng 100 và hiệu của số lớn với số bé bằng 28.",
+    "expected_answer": 64,
+    "expected_unit": "",
+    "ground_truth_equations": "x + y = 100, x - y = 28"
+  },
+  {
+    "id": "thcs_12",
+    "category": "Toán chuyển động",
+    "grade": 9,
+    "question": "Hai người đi xe đạp khởi hành cùng một lúc từ hai địa điểm A và B cách nhau 42 km, đi ngược chiều nhau và gặp nhau sau 1.5 giờ. Tính vận tốc của người đi từ A, biết rằng người đó đi nhanh hơn người đi từ B là 4 km/h.",
+    "expected_answer": 16,
+    "expected_unit": "km/h",
+    "ground_truth_equations": "1.5 * x + 1.5 * (x - 4) = 42"
+  },
+  {
+    "id": "thcs_13",
+    "category": "Toán hình học thực tế",
+    "grade": 9,
+    "question": "Một tam giác vuông có cạnh huyền dài 13 cm và diện tích bằng 30 cm2. Tính độ dài cạnh góc vuông lớn hơn của tam giác đó.",
+    "expected_answer": 12,
+    "expected_unit": "cm",
+    "ground_truth_equations": "a^2 + b^2 = 169, 0.5 * a * b = 30"
+  },
+  {
+    "id": "thcs_14",
+    "category": "Toán tỉ lệ và chia phần",
+    "grade": 7,
+    "question": "Ba lớp 7A, 7B, 7C quyên góp được tổng cộng 360 quyển vở. Số vở quyên góp của ba lớp tỉ lệ thuận với 3; 4; 5. Hỏi lớp 7B quyên góp được bao nhiêu quyển vở?",
+    "expected_answer": 120,
+    "expected_unit": "quyển",
+    "ground_truth_equations": "a/3 = b/4 = c/5, a + b + c = 360"
+  },
+  {
+    "id": "thcs_15",
+    "category": "Toán năng suất",
+    "grade": 9,
+    "question": "Theo kế hoạch hai tổ sản xuất phải làm được 720 chi tiết máy. Nhờ tăng năng suất lao động, tổ I vượt mức 15%, tổ II vượt mức 12%, do đó cả hai tổ đã làm được 819 chi tiết máy. Hỏi theo kế hoạch tổ I phải sản xuất bao nhiêu chi tiết máy?",
+    "expected_answer": 420,
+    "expected_unit": "chi tiết máy",
+    "ground_truth_equations": "x + y = 720, 1.15*x + 1.12*y = 819"
+  }
+]
